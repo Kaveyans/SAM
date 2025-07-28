@@ -1,12 +1,41 @@
-# React + Vite
+# SAM - Student Academic Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web app to manage student details, attendance, marks, and reports.
+
+## Features
+- Add/Edit/Delete Students
+- Attendance Tracking
+- Grade Management
+- Admin Login
+
+## Tech Stack
+- Frontend: HTML, CSS, JavaScript (React + Vite)
+- Backend: Node.js, Express
+- Database: MongoDB
+
+---
+
+## Development Setup (React + Vite)
+
+This project uses Vite for fast React development with HMR and ESLint support.
 
 Currently, two official plugins are available:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react) uses Babel for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses SWC for Fast Refresh
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Expand ESLint Configuration
 
-## Expanding the ESLint configuration
+If you are developing a production-grade app, consider using TypeScript:
+- [React + TypeScript Template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts)
+- [`typescript-eslint`](https://typescript-eslint.io)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run the app
+npm run dev
